@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mente Accesible: recursos sencillos de prevención y bienestar emocional para estudiantes universitarios.">
+<title>Mente Accesible | Tu bienestar importa</title>
+<style>
+:root{--ink:#173b45;--teal:#287b78;--mint:#e7f4ef;--sky:#edf5fb;--cream:#fffaf1;--coral:#f2a78b;--muted:#5c7278;--white:#fff;--shadow:0 12px 34px rgba(23,59,69,.09)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fbfdfc;color:var(--ink);line-height:1.6}
+a{color:inherit}
+header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid #e6efec}
+.nav{max-width:1120px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:800;font-size:1.15rem;display:flex;gap:10px;align-items:center}
+.logo{width:38px;height:38px;border-radius:13px;background:var(--mint);display:grid;place-items:center;font-size:22px}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{text-decoration:none;font-size:.92rem;color:var(--muted);font-weight:700}nav a:hover{color:var(--teal)}
+main{max-width:1120px;margin:auto;padding:0 22px}
+.hero{padding:70px 0 48px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:42px}
+.eyebrow{color:var(--teal);text-transform:uppercase;font-weight:800;font-size:.78rem;letter-spacing:.12em}
+h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.04;letter-spacing:-.05em;margin:14px 0 20px}
+h1 span{color:var(--teal)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:610px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;border:0;border-radius:999px;padding:13px 20px;font-weight:800;text-decoration:none;cursor:pointer;font-size:.96rem}
+.primary{background:var(--teal);color:white}.secondary{background:var(--mint);color:var(--ink)}
+.hero-art{min-height:310px;border-radius:38px;background:linear-gradient(140deg,#e6f3ee,#edf5fb);display:grid;place-items:center;position:relative;overflow:hidden}
+.sun{width:190px;height:190px;border-radius:50%;background:#f4c7a6;display:grid;place-items:center;font-size:82px;box-shadow:0 0 0 24px rgba(255,255,255,.38)}
+.floating{position:absolute;background:white;border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);font-weight:700}.f1{top:25px;left:18px}.f2{right:15px;bottom:28px}
+section{padding:46px 0}
+.section-head{max-width:690px;margin-bottom:24px}.section-head h2{font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid #e8efec;border-radius:24px;padding:24px;box-shadow:var(--shadow)}
+.card .emoji{font-size:32px}.card h3{margin:10px 0 8px}.card p{color:var(--muted);margin:0}
+.soft{background:var(--sky);border-radius:30px;padding:34px}
+.mood-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}
+.mood{border:2px solid transparent;border-radius:18px;padding:16px 8px;background:white;cursor:pointer;font-size:1rem;font-weight:700;color:var(--ink)}
+.mood span{display:block;font-size:30px;margin-bottom:5px}.mood[aria-pressed="true"]{border-color:var(--teal);background:var(--mint)}
+.tip{background:white;border-radius:18px;padding:20px;min-height:92px;color:var(--ink)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}
+.breath-card{background:var(--mint);border-radius:26px;padding:28px;text-align:center}
+.breath-circle{margin:18px auto;width:130px;height:130px;border-radius:50%;display:grid;place-items:center;background:#fff;border:8px solid #c3e2d8;font-size:1rem;font-weight:800;transition:transform 4s ease}
+.breath-circle.inhale{transform:scale(1.15)}.breath-circle.exhale{transform:scale(.85)}
+.small{font-size:.88rem;color:var(--muted)}
+.resource-list{list-style:none;padding:0;margin:18px 0 0}.resource-list li{padding:14px 0;border-bottom:1px solid #e5eeeb}.resource-list li:last-child{border:0}
+.resource-list a{color:var(--teal);font-weight:800}
+.notice{border-left:4px solid var(--coral);background:var(--cream);padding:16px 18px;border-radius:0 14px 14px 0;color:#604d44}
+footer{margin-top:30px;background:#173b45;color:white;padding:28px 22px;text-align:center}footer p{max-width:850px;margin:7px auto;color:#d5e5e2;font-size:.9rem}
+@media(max-width:760px){nav{gap:10px}nav a{font-size:.8rem}.hero{grid-template-columns:1fr;padding-top:45px;gap:25px}.hero-art{min-height:250px}.cards{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.mood-grid{grid-template-columns:repeat(2,1fr)}.soft{padding:23px}.nav{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand"><span class="logo">🌿</span> Mente Accesible</div>
+    <nav aria-label="Navegación principal">
+      <a href="#aprende">Aprende</a><a href="#como-te-sientes">¿Cómo te sientes?</a><a href="#pausa">Pausa activa</a><a href="#ayuda">Busca apoyo</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div>
+      <div class="eyebrow">Bienestar emocional para estudiantes</div>
+      <h1>Tu mente importa. <span>Cuidarla también.</span></h1>
+      <p class="lead">Un espacio para aprender sobre salud mental preventiva, encontrar pequeñas herramientas para el día a día y conocer dónde buscar orientación cuando la necesites.</p>
+      <div class="actions"><a class="btn primary" href="#como-te-sientes">Explorar recursos</a><a class="btn secondary" href="#ayuda">Encontrar orientación</a></div>
+    </div>
+    <div class="hero-art" aria-label="Ilustración decorativa de bienestar">
+      <div class="sun">🧠</div><div class="floating f1">Respira 🌬️</div><div class="floating f2">No tienes que hacerlo todo hoy 💚</div>
+    </div>
+  </section>
+
+  <section id="aprende">
+    <div class="section-head"><div class="eyebrow">Empieza por lo básico</div><h2>¿Qué es la salud mental preventiva?</h2><p>Son acciones e información que ayudan a cuidar el bienestar emocional, reconocer señales de estrés y buscar apoyo a tiempo. No se trata de resolverlo todo a solas.</p></div>
+    <div class="cards">
+      <article class="card"><div class="emoji">🧭</div><h3>Reconoce lo que sientes</h3><p>Ponerle nombre a una emoción puede ayudarte a comprender qué necesitas y a expresarlo con más claridad.</p></article>
+      <article class="card"><div class="emoji">🌱</div><h3>Crea hábitos posibles</h3><p>Intenta mantener horarios de descanso, alimentarte con regularidad, moverte un poco y hacer pausas durante el estudio.</p></article>
+      <article class="card"><div class="emoji">🤝</div><h3>Busca conexión</h3><p>Hablar con alguien de confianza o solicitar orientación profesional también es una forma de cuidarte.</p></article>
+    </div>
+  </section>
+
+  <section id="como-te-sientes">
+    <div class="soft">
+      <div class="section-head"><div class="eyebrow">Un momento para ti</div><h2>¿Cómo te sientes hoy?</h2><p>Elige la opción que más se acerque a cómo estás. No es un diagnóstico; es una pausa para pensar en lo que necesitas.</p></div>
+      <div class="mood-grid" role="group" aria-label="Selecciona cómo te sientes">
+        <button class="mood" data-mood="tranquilo" aria-pressed="false"><span>🙂</span>Tranquilo/a</button>
+        <button class="mood" data-mood="estresado" aria-pressed="false"><span>😵‍💫</span>Estresado/a</button>
+        <button class="mood" data-mood="triste" aria-pressed="false"><span>😔</span>Triste</button>
+        <button class="mood" data-mood="agotado" aria-pressed="false"><span>🥱</span>Agotado/a</button>
+      </div>
+      <div class="tip" id="mood-tip" aria-live="polite">Selecciona una emoción para recibir una sugerencia sencilla de autocuidado.</div>
+    </div>
+  </section>
+
+  <section id="pausa">
+    <div class="two-col">
+      <div class="breath-card">
+        <div class="eyebrow">Pausa breve</div><h2>Respira a tu ritmo</h2>
+        <p>Si te resulta cómodo, prueba una respiración suave: inspira lentamente y luego suelta el aire sin forzarte.</p>
+        <div class="breath-circle" id="breath-circle">Listo/a</div>
+        <button class="btn primary" id="breath-btn">Iniciar pausa de 20 segundos</button>
+        <p class="small" id="breath-status" aria-live="polite">Puedes detenerte en cualquier momento. Si te mareas o sientes incomodidad, vuelve a respirar normalmente.</p>
+      </div>
+      <div class="card">
+        <div class="eyebrow">Ideas para el día a día</div><h2>Pequeños pasos cuentan</h2>
+        <ul class="resource-list">
+          <li>📚 Divide una tarea grande en pasos más pequeños.</li>
+          <li>📵 Haz una pausa breve de las pantallas cuando puedas.</li>
+          <li>💬 Cuéntale a alguien de confianza cómo te has sentido.</li>
+          <li>🛌 Reserva tiempo para descansar y dormir.</li>
+          <li>🧑‍⚕️ Si el malestar persiste o interfiere con tu vida, busca apoyo profesional.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="ayuda">
+    <div class="section-head"><div class="eyebrow">No tienes que hacerlo a solas</div><h2>¿Dónde puedes buscar apoyo?</h2><p>Si necesitas hablar con alguien, considera estos pasos para encontrar ayuda adecuada.</p></div>
+    <div class="cards">
+      <article class="card"><div class="emoji">🏫</div><h3>En tu universidad</h3><p>Consulta los canales oficiales de Bienestar Universitario de la Institución Universitaria Pascual Bravo para verificar los servicios, horarios y formas de solicitar orientación psicológica.</p></article>
+      <article class="card"><div class="emoji">👥</div><h3>Con alguien de confianza</h3><p>Puedes empezar diciendo: “Últimamente no me he sentido muy bien y necesito que me escuches”.</p></article>
+      <article class="card"><div class="emoji">🩺</div><h3>Servicios de salud</h3><p>Contacta a tu EPS o centro de salud para preguntar por las opciones de atención en salud mental disponibles.</p></article>
+    </div>
+    <div class="notice" style="margin-top:22px"><strong>Importante:</strong> esta página es un prototipo educativo y no reemplaza la evaluación ni la atención de profesionales. Si tú u otra persona están en peligro inmediato, busca ayuda de emergencias de tu zona y acude a una persona adulta o de confianza.</div>
+  </section>
+</main>
+<footer>
+  <strong>🌿 Mente Accesible</strong>
+  <p>Proyecto académico sobre la poca accesibilidad a la salud mental preventiva.</p>
+  <p>Propuesta estudiantil para promover información, prevención y acceso a orientación. Verifica los servicios y contactos en fuentes oficiales antes de publicar la página.</p>
+</footer>
+<script>
+const tips={
+ tranquilo:"Qué bueno que te sientas tranquilo/a. Puedes aprovechar este momento para hacer algo que disfrutes, descansar o mantener un hábito que te haga bien.",
+ estresado:"Prueba elegir una sola tarea pequeña para empezar. Relaja los hombros, toma una pausa y, si puedes, habla con alguien sobre lo que te está preocupando.",
+ triste:"No tienes que obligarte a sentirte diferente. Date un poco de tiempo y considera hablar con alguien de confianza. Si esta sensación continúa, busca orientación profesional.",
+ agotado:"Si es posible, haz una pausa y revisa si necesitas agua, comida, descanso o apoyo con tus responsabilidades. Descansar también forma parte del cuidado."
+};
+document.querySelectorAll(".mood").forEach(button=>button.addEventListener("click",()=>{
+ document.querySelectorAll(".mood").forEach(b=>b.setAttribute("aria-pressed","false"));
+ button.setAttribute("aria-pressed","true");
+ document.getElementById("mood-tip").textContent=tips[button.dataset.mood];
+}));
+let running=false, timer=null, phase=0, remaining=20;
+const circle=document.getElementById("breath-circle"), breathBtn=document.getElementById("breath-btn"), status=document.getElementById("breath-status");
+function stopBreathing(){
+ running=false;clearInterval(timer);timer=null;circle.className="breath-circle";circle.textContent="Listo/a";breathBtn.textContent="Iniciar pausa de 20 segundos";status.textContent="Pausa finalizada. Continúa respirando con normalidad y quédate con lo que te resulte cómodo.";
+}
+breathBtn.addEventListener("click",()=>{
+ if(running){stopBreathing();status.textContent="Pausa detenida. Respira normalmente.";return;}
+ running=true;remaining=20;phase=0;breathBtn.textContent="Detener pausa";status.textContent="Sigue el ritmo solo si te resulta cómodo.";
+ const update=()=>{if(!running)return;circle.className="breath-circle "+(phase%2===0?"inhale":"exhale");circle.textContent=phase%2===0?"Inspira suave":"Suelta el aire";phase++;remaining-=4;if(remaining<=0){stopBreathing();return;}};
+ update();timer=setInterval(update,4000);
+});
+</script>
+</body>
+</html>
